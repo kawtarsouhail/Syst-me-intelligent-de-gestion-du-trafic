@@ -1,0 +1,2 @@
+Nombre total de véhicules détectés : 55
+Détail par classe : {'car': 53, 'truck': 2}
