@@ -23,6 +23,7 @@ Le projet vise donc à fournir un **système intelligent capable de détecter et
 ---
 ## Structure du projet
 
+```markdown 
 SIGT/
 │
 ├─ inputs/              # Vidéos d’entrée (non versionnées sur GitHub)
