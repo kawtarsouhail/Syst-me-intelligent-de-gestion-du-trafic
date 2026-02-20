@@ -30,7 +30,8 @@ graph TD
     B --> C[Détection de véhicules]
     C --> D[Analyse de congestion]
     D --> E[Export / Visualisation]
-# Structure du Projet
+
+## 🔹Structure du Projet
 SIGT/
 │
 ├─ inputs/              # Vidéos d’entrée (non versionnées sur GitHub)
