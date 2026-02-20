@@ -36,10 +36,7 @@ SIGT/
 │   └─ SIGT1.py         # Script principal ou de test
 ├─ notebooks/           # Notebooks d’analyse et tests
 ├─ .gitignore           # Ignore les vidéos lourdes et outputs
-└─ README.md
-
----
-
+└─ README.md ``
 
 ---
 
