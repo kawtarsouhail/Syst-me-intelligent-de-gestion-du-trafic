@@ -33,3 +33,18 @@ graph TD
     C --> D[Analyse de congestion]
     D --> E[Export / Visualisation]
 
+### Structure du projet
+
+SIGT/
+│
+├─ inputs/              # Vidéos d’entrée (non versionnées sur GitHub)
+├─ output/              # Résultats générés (vidéos annotées, CSV)
+│   ├─ output_yolo/
+│   ├─ output_RCNN/
+│   └─ ...
+├─ models/              # Modèles YOLO, Faster-RCNN (.pt non versionnés)
+├─ src/                 # Code source Python
+│   └─ SIGT1.py         # Script principal ou de test
+├─ notebooks/           # Notebooks d’analyse et tests
+├─ .gitignore           # Ignore les vidéos lourdes et outputs
+└─ README.md
