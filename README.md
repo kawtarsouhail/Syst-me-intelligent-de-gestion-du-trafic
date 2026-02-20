@@ -31,6 +31,8 @@ graph TD
     C --> D[Analyse de congestion]
     D --> E[Export / Visualisation]
 
+---
+
 ## 🔹Structure du Projet
 SIGT/
 │
