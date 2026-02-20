@@ -38,6 +38,7 @@ SIGT/
 ├─ .gitignore           # Ignore les vidéos lourdes et outputs
 └─ README.md
 
+---
 
 
 ---
@@ -52,5 +53,6 @@ graph TD
     B --> C[Détection de véhicules]
     C --> D[Analyse de congestion]
     D --> E[Export / Visualisation]
+---
 
 
