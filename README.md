@@ -51,6 +51,5 @@ graph TD
     B --> C[Détection de véhicules]
     C --> D[Analyse de congestion]
     D --> E[Export / Visualisation]
----
 
 
