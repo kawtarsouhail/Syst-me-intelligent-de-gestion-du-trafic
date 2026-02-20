@@ -24,13 +24,14 @@ Le projet vise donc à fournir un **système intelligent capable de détecter et
 
 ## 🔹 Architecture du projet
 
+### Diagramme Mermaid
+
 ```mermaid
 graph TD
     A[Caméras de surveillance / Vidéos] --> B[Pré-traitement des images]
     B --> C[Détection de véhicules]
     C --> D[Analyse de congestion]
     D --> E[Export / Visualisation]
-
 SIGT/
 │
 ├─ inputs/              # Vidéos d’entrée (non versionnées sur GitHub)
@@ -38,11 +39,9 @@ SIGT/
 │   ├─ output_yolo/
 │   ├─ output_RCNN/
 │   └─ ...
-├─ models/              # Modèles YOLO, Faster-RCNN (fichiers .pt non versionnés)
+├─ models/              # Modèles YOLO, Faster-RCNN (.pt non versionnés)
 ├─ src/                 # Code source Python
-│   ├─ SIGT1.py
-│ 
+│   └─ SIGT1.py         # Script principal ou de test
 ├─ notebooks/           # Notebooks d’analyse et tests
 ├─ .gitignore           # Ignore les vidéos lourdes et outputs
 └─ README.md
-  
