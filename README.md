@@ -56,7 +56,10 @@ graph TD
 --- 
 ## exemple de detection avec yolo
 
-https://github.com/user-attachments/assets/7e84a8ec-24a6-41b9-9b0b-9f270255632a
+
+
+https://github.com/user-attachments/assets/d64f6538-e640-4817-a978-584c18ac10f6
+
 
 
 
