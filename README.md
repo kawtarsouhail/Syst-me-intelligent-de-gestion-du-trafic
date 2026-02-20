@@ -21,18 +21,6 @@ Le projet vise donc à fournir un **système intelligent capable de détecter et
 - Permettre la visualisation et l’export de résultats (vidéos annotées, statistiques).
 
 ---
-
-## 🔹 Architecture du projet
-
-### Diagramme Mermaid
-
-```mermaid
-graph TD
-    A[Caméras de surveillance / Vidéos] --> B[Pré-traitement des images]
-    B --> C[Détection de véhicules]
-    C --> D[Analyse de congestion]
-    D --> E[Export / Visualisation]
-
 ```markdown
 ## Structure du projet
 
@@ -50,4 +38,16 @@ SIGT/
 ├─ .gitignore           # Ignore les vidéos lourdes et outputs
 └─ README.md
 
-## detection avec YOLOV8
+---
+## 🔹 Architecture du projet
+
+### Diagramme Mermaid
+
+```mermaid
+graph TD
+    A[Caméras de surveillance / Vidéos] --> B[Pré-traitement des images]
+    B --> C[Détection de véhicules]
+    C --> D[Analyse de congestion]
+    D --> E[Export / Visualisation]
+
+
