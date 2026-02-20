@@ -1,7 +1,48 @@
-# Problématique
-	Chaque route est conçue pour supporter un certain volume de trafic.
-	Lorsque le nombre de véhicules augmente, le réseau routier doit être amélioré pour éviter la congestion. 
-  Cependant, dans certains cas, améliorer le réseau routier est difficile, irréalisable ou tout simplement impossible. 
-  Il n’est pas non plus possible de surveiller chaque route depuis tous les points, ce qui peut créer des angles morts.
+# Système Intelligent de Gestion du Trafic (SIGT)
 
+## 🔹 Problématique
+
+Chaque route est conçue pour supporter un certain volume de trafic.  
+Lorsque le nombre de véhicules augmente, le réseau routier doit être amélioré pour éviter la congestion.  
+
+Cependant :  
+- Améliorer le réseau routier peut être difficile, irréalisable ou impossible.  
+- Il n’est pas possible de surveiller chaque route depuis tous les points, ce qui crée des **angles morts**.  
+
+Le projet vise donc à fournir un **système intelligent capable de détecter et prédire la congestion** à partir de vidéos de surveillance en temps réel.
+
+---
+
+## 🔹 Objectifs
+
+- Détecter et compter les véhicules sur les routes à l’aide de modèles de deep learning (YOLO, Faster-RCNN).  
+- Mesurer le niveau de congestion en temps réel.  
+- Fournir des alertes ou statistiques pour aider à la gestion du trafic.  
+- Permettre la visualisation et l’export de résultats (vidéos annotées, statistiques).
+
+---
+
+## 🔹 Architecture du projet
+
+```mermaid
+graph TD
+    A[Caméras de surveillance / Vidéos] --> B[Pré-traitement des images]
+    B --> C[Détection de véhicules]
+    C --> D[Analyse de congestion]
+    D --> E[Export / Visualisation]
+# Structure du Projet
+SIGT/
+│
+├─ inputs/              # Vidéos d’entrée (non versionnées sur GitHub)
+├─ output/              # Résultats générés (vidéos annotées, CSV)
+│   ├─ output_yolo/
+│   ├─ output_RCNN/
+│   └─ ...
+├─ models/              # Modèles YOLO, Faster-RCNN (fichiers .pt non versionnés)
+├─ src/                 # Code source Python
+│   ├─ SIGT1.py
+│ 
+├─ notebooks/           # Notebooks d’analyse et tests
+├─ .gitignore           # Ignore les vidéos lourdes et outputs
+└─ README.md
   
