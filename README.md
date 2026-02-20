@@ -33,7 +33,8 @@ graph TD
     C --> D[Analyse de congestion]
     D --> E[Export / Visualisation]
 
-### Structure du projet
+```markdown
+## Structure du projet
 
 SIGT/
 │
@@ -48,3 +49,5 @@ SIGT/
 ├─ notebooks/           # Notebooks d’analyse et tests
 ├─ .gitignore           # Ignore les vidéos lourdes et outputs
 └─ README.md
+
+## detection avec YOLOV8
