@@ -51,5 +51,13 @@ graph TD
     B --> C[Détection de véhicules]
     C --> D[Analyse de congestion]
     D --> E[Export / Visualisation]
+```
+
+--- 
+## exemple de detection avec yolo
+
+https://github.com/user-attachments/assets/7e84a8ec-24a6-41b9-9b0b-9f270255632a
+
+
 
 
