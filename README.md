@@ -21,7 +21,6 @@ Le projet vise donc à fournir un **système intelligent capable de détecter et
 - Permettre la visualisation et l’export de résultats (vidéos annotées, statistiques).
 
 ---
-```markdown
 ## Structure du projet
 
 SIGT/
@@ -38,7 +37,10 @@ SIGT/
 ├─ .gitignore           # Ignore les vidéos lourdes et outputs
 └─ README.md
 
+
+
 ---
+
 ## 🔹 Architecture du projet
 
 ### Diagramme Mermaid
