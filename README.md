@@ -37,7 +37,7 @@ SIGT/
 ├─ notebooks/           # Notebooks d’analyse et tests
 ├─ .gitignore           # Ignore les vidéos lourdes et outputs
 └─ README.md
-` ``` `
+```
 
 ---
 
